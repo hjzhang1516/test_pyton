@@ -19,6 +19,12 @@ def div(n):
     res = 10 / n
     return res
 
+def plus(n):
+    """
+    Just divide
+    """
+    res = 10 + n
+    return res
 
 def main(n):
     res = fact(n)
