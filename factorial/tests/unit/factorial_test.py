@@ -1,5 +1,5 @@
 import unittest
-from tp_factorial.factorial import fact, div
+from factorial.src.tp_factorial.factorial import fact, div
 
 class TestFactorial(unittest.TestCase):
     """
@@ -29,6 +29,14 @@ class TestFactorial(unittest.TestCase):
         """
         res = div(5)
         self.assertEqual(res, 2)
+
+    def test_plus(self):
+        """
+        The actual test.
+        Any method which starts with ``test_`` will considered as a test case.
+        """
+        res = plus(5)
+        self.assertEqual(res, 15)
 
     def test_error(self):
         """
