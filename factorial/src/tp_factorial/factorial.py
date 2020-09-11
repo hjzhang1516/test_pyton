@@ -21,10 +21,18 @@ def div(n):
 
 def plus(n):
     """
-    Just divide
+    Just add
     """
     res = 10 + n
     return res
+
+def minus(n):
+    """
+    Just minus
+    """
+    res = 10 - n
+    return res
+
 
 def main(n):
     res = fact(n)
