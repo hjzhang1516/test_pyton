@@ -30,21 +30,21 @@ class TestFactorial(unittest.TestCase):
         res = div(5)
         self.assertEqual(res, 2)
 
-    # def test_plus(self):
-    #     """
-    #     The actual test.
-    #     Any method which starts with ``test_`` will considered as a test case.
-    #     """
-    #     res = plus(5)
-    #     self.assertEqual(res, 15)
+    def test_plus(self):
+        """
+        The actual test.
+        Any method which starts with ``test_`` will considered as a test case.
+        """
+        res = plus(5)
+        self.assertEqual(res, 15)
 
-    # def test_minus(self):
-    #     """
-    #     The actual test.
-    #     Any method which starts with ``test_`` will considered as a test case.
-    #     """
-    #     res = minus(5)
-    #     self.assertEqual(res, 5)
+    def test_minus(self):
+        """
+        The actual test.
+        Any method which starts with ``test_`` will considered as a test case.
+        """
+        res = minus(5)
+        self.assertEqual(res, 5)
 
     def test_error(self):
         """
