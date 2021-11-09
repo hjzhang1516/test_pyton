@@ -33,6 +33,12 @@ def minus(n):
     res = 10 - n
     return res
 
+def times(n):
+    """
+    Just times
+    """
+    res = 10 * n
+    return res
 
 def main(n):
     res = fact(n)
