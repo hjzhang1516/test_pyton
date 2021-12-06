@@ -54,6 +54,14 @@ class TestFactorial(unittest.TestCase):
         res = times(5)
         self.assertEqual(res, 50)
 
+    def test_times(self):
+        """
+        The actual test.
+        Any method which starts with ``test_`` will considered as a test case.
+        """
+        res = times(10)
+        self.assertEqual(res, 100) 
+
     def test_error(self):
         """
         To test exception raise due to run time error
